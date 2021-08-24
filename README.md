@@ -27,7 +27,7 @@ Start the DocumentSignatureValidator.exe from the console with an XML config fil
 		<path>Path for the result file and screenshot directory</path>
 	</output>
 </config>
-.```
+```
 
 # Version
 0.1
