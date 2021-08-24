@@ -2,7 +2,7 @@
 Automation tool for searching for strings in an application's process memory to check whether a document contains a valid or invalid digital signature.
 
 ## Supported file types
-OpenDocument Format(ODF), Office Open XML (OOXML), Portable Document Format (PDF)
+OpenDocument Format (ODF), Office Open XML (OOXML), Portable Document Format (PDF)
 
 ## Start
 Start the DocumentSignatureValidator.exe from the console with an XML config file as argument.
@@ -33,7 +33,7 @@ Start the DocumentSignatureValidator.exe from the console with an XML config fil
 		<path>Path for the result file and screenshot directory</path>
 	</output>
 </config>
-```
+``` 
 
 ## XML parser
 This tool use the RapidXml parser http://rapidxml.sourceforge.net/license.txt
