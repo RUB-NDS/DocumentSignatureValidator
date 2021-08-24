@@ -2,7 +2,7 @@
 Start the DocumentSignatureValidator.exe from the console with an XML config file as argument
 
 # Structe of an XML config file
-<config>
+<config><br>
 	<application>
 		<path>Path to the application to be tested</path>
 		<overwriteprocessname>(optional) If the application starts a process whose name does not match the name of the .exe file</overwriteprocessname>
