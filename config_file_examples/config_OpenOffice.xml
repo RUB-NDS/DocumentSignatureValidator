@@ -1,0 +1,24 @@
+<config>
+	<application>
+		<path>C:\Program Files (x86)\OpenOffice 4\program\soffice.bin</path>
+		<overwriteprocessname></overwriteprocessname>
+		<encoding></encoding>
+		<teststring></teststring>
+		<sigvalidstring>Digital Signature: The document signature is OK</sigvalidstring>
+		<sigvalidstring2></sigvalidstring2>
+		<siginvalidstring>Digital Signature: The document signature does not match the document content</siginvalidstring>
+		<siginvalidstring2>The digitally signed document content and/or macros do not match the current document signature</siginvalidstring2>
+		<sigproblem></sigproblem>
+		<sigproblem2></sigproblem2>
+		<wait>3</wait>
+		<minfoundvalues></minfoundvalues>
+	</application>
+	<files>
+		<path>Path to the files to be tested</path>
+		<arguments>-norestore</arguments>
+		<extension>.odt</extension>
+	</files>
+	<output>
+		<path>Path for the result file and screenshot directory</path>
+	</output>
+</config>
