@@ -35,5 +35,8 @@ Start the DocumentSignatureValidator.exe from the console with an XML config fil
 </config>
 ```
 
+## XML parser
+This tool use the RapidXml parser http://rapidxml.sourceforge.net/
+
 ## Version
 0.1
