@@ -1,11 +1,11 @@
 # Document Signature Validator
 Automation tool for searching for strings in an application's process memory to check whether a document contains a valid or invalid digital signature.
 
-## Supported file types
-OpenDocument Format (ODF), Office Open XML (OOXML), Portable Document Format (PDF)
-
 ## Start
 Start the DocumentSignatureValidator.exe from the console with an XML config file as argument.
+
+## Supported file types
+OpenDocument Format (ODF), Office Open XML (OOXML), Portable Document Format (PDF)
 
 ## Structure of an XML config file
 ```xml
