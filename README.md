@@ -1,5 +1,5 @@
 # Document Signature Validator
-Automation tool for searching for strings in an application's process memory to check whether a document contains a valid or invalid digital signature.
+Automation tool for searching known strings in an application's process memory to check whether a document contains a valid or invalid digital signature.
 
 ## Start
 Start the DocumentSignatureValidator.exe from the console with an XML config file as argument.
