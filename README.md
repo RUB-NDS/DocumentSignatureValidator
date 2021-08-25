@@ -22,7 +22,7 @@ OpenDocument Format (ODF), Office Open XML (OOXML), Portable Document Format (PD
 		<sigproblem>(optional) First signature has problems string</sigproblem>
 		<sigproblem2>(optional) Second signature has problems string</sigproblem2>
 		<wait>(optional) Time in seconds to wait for the application to load completely</wait>
-		<minfoundvalues>(optional) Minimum number of identical test strings found for the search to be considered successful</minfoundvalues>
+		<minfoundvalues>(optional) Minimum number of identical signature strings found to count the search as successful</minfoundvalues>
 	</application>
 	<files>
 		<path>Path to the files to be tested</path>
