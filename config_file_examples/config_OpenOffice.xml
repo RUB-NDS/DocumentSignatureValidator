@@ -10,7 +10,7 @@
 		<siginvalidstring2>The digitally signed document content and/or macros do not match the current document signature</siginvalidstring2>
 		<sigproblem></sigproblem>
 		<sigproblem2></sigproblem2>
-		<wait>3</wait>
+		<wait>4</wait>
 		<minfoundvalues></minfoundvalues>
 	</application>
 	<files>
