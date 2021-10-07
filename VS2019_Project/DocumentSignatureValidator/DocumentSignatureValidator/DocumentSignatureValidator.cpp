@@ -760,8 +760,9 @@ int main(int argc, char** argv) {
                             pre = "\\C ";
                             pre += " ";
                             pre += arg;
-                            pre += " ";
+                            pre += " \"";
                             pre += file;
+                            pre += "\"";
                             char* currentfile = new char[pre.size() + 1];
                             std::copy(pre.begin(), pre.end(), currentfile);
                             currentfile[pre.size()] = '\0';
@@ -772,10 +773,11 @@ int main(int argc, char** argv) {
                             {
                                 //Get array of process IDs with the same process name
                                 int* processId = GetProcessId(processNameW, maxProcesses);
+                                processId[0] = result;
 
                                 //Check for errors in GetProcessId. Casting maxProcesses to long long prevents the "Warning C26451"
-                                if (sizeof(processId) >= ((long long)maxProcesses - 1) && processId[0] > 0)
-                                {
+                                if (sizeof(processId) >= ((long long)maxProcesses - 1))
+                                {   
                                     //Start findString() for all processes
                                     for (i = 0; i < sizeof(processId) + 1; i++)
                                     {
@@ -793,7 +795,7 @@ int main(int argc, char** argv) {
                                             {
                                                 found = findStringU8(processH, testStr, searchStrA, searchStrA2, searchStrB, searchStrB2, searchStrC, searchStrC2, minFounds);
                                             }
-
+                                            
                                             CloseHandle(processH);
                                             if (found > 0 && found < 7)
                                             {

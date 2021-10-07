@@ -1,0 +1,24 @@
+<config>
+	<application>
+		<path>C:\Program Files\Microsoft Office\root\Office16\WINWORD.exe</path>
+		<overwriteprocessname></overwriteprocessname>
+		<encoding></encoding>
+		<teststring></teststring>
+		<sigvalidstring>This document contains valid signatures</sigvalidstring>
+		<sigvalidstring2></sigvalidstring2>
+		<siginvalidstring>This document contains invalid signatures</siginvalidstring>
+		<siginvalidstring2></siginvalidstring2>
+		<sigproblem></sigproblem>
+		<sigproblem2></sigproblem2>
+		<wait>5</wait>
+		<minfoundvalues></minfoundvalues>
+	</application>
+	<files>
+		<path>Path to the files to be tested</path>
+		<arguments></arguments>
+		<extension>.docx</extension>
+	</files>
+	<output>
+		<path>Path for the result file and screenshot directory</path>
+	</output>
+</config>

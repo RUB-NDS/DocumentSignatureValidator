@@ -39,4 +39,4 @@ OpenDocument Format (ODF), Office Open XML (OOXML), Portable Document Format (PD
 This tool uses the RapidXml parser http://rapidxml.sourceforge.net/license.txt
 
 ## Version
-0.1
+0.1.0.1
