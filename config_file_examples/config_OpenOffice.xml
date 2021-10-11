@@ -4,11 +4,11 @@
 		<overwriteprocessname></overwriteprocessname>
 		<encoding></encoding>
 		<teststring></teststring>
-		<sigvalidstring>Digital Signature: The document signature is OK</sigvalidstring>
+		<sigvalidstring>Digital Signature: The document signature is OK.</sigvalidstring>
 		<sigvalidstring2></sigvalidstring2>
 		<siginvalidstring>Digital Signature: The document signature does not match the document content</siginvalidstring>
 		<siginvalidstring2>The digitally signed document content and/or macros do not match the current document signature</siginvalidstring2>
-		<sigproblem></sigproblem>
+		<sigproblem>Digital Signature: The document signature is OK, but the certificates could not be validated</sigproblem>
 		<sigproblem2></sigproblem2>
 		<wait>4</wait>
 		<minfoundvalues></minfoundvalues>
