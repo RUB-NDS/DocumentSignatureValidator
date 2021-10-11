@@ -8,7 +8,7 @@
 		<sigvalidstring2></sigvalidstring2>
 		<siginvalidstring>At least one signature is invalid</siginvalidstring>
 		<siginvalidstring2></siginvalidstring2>
-		<sigproblem></sigproblem>
+		<sigproblem>At least one signature has problems</sigproblem>
 		<sigproblem2></sigproblem2>
 		<wait>3</wait>
 		<minfoundvalues>2</minfoundvalues>
