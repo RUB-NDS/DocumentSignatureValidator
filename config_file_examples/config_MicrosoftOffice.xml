@@ -8,7 +8,7 @@
 		<sigvalidstring2></sigvalidstring2>
 		<siginvalidstring>This document contains invalid signatures</siginvalidstring>
 		<siginvalidstring2></siginvalidstring2>
-		<sigproblem></sigproblem>
+		<sigproblem>This document contains recoverable signatures</sigproblem>
 		<sigproblem2></sigproblem2>
 		<wait>5</wait>
 		<minfoundvalues></minfoundvalues>
