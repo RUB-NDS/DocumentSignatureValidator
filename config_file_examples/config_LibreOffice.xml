@@ -8,7 +8,7 @@
 		<sigvalidstring2></sigvalidstring2>
 		<siginvalidstring>This document has an invalid signature</siginvalidstring>
 		<siginvalidstring2></siginvalidstring2>
-		<sigproblem></sigproblem>
+		<sigproblem>At least one signature has problems: the certificate could not be validated</sigproblem>
 		<sigproblem2></sigproblem2>
 		<wait>4</wait>
 		<minfoundvalues></minfoundvalues>
