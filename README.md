@@ -1,4 +1,4 @@
-# Document Signature Validator
+# Document Signature Validator (DocSV)
 Automation tool for searching known strings in an application's process memory to check whether a document contains a valid or invalid digital signature.
 
 ## Start
