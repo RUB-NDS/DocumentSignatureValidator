@@ -18,7 +18,7 @@ namespace fs = std::filesystem;
 
 void WINAPI SaveScreenshot(const char* path)
 {
-    //Source: https://stackoverflow.com/a/53421510 and https://stackoverflow.com/a/36545132
+    //Reference: https://stackoverflow.com/a/53421510 and https://stackoverflow.com/a/36545132
     BITMAPFILEHEADER bfHeader;
     BITMAPINFOHEADER biHeader;
     BITMAPINFO bInfo;
@@ -92,7 +92,7 @@ void WINAPI SaveScreenshot(const char* path)
 
 //UTF-16
 int findStringU16(HANDLE process, string const& testStr, u16string const& searchStrA, u16string const& searchStrA2, u16string const& searchStrB, u16string const& searchStrB2, u16string const& searchStrC, u16string const& searchStrC2, int minFounds) {
-    //Source: https://stackoverflow.com/a/36878259
+    //Reference: https://stackoverflow.com/a/36878259
     unsigned char* p = NULL;
     int foundsA = 0;
     int foundsA2 = 0;
@@ -235,7 +235,7 @@ int findStringU16(HANDLE process, string const& testStr, u16string const& search
 
 //UTF-8
 int findStringU8(HANDLE process, string const& testStr, string const& searchStrA, string const& searchStrA2, string const& searchStrB, string const& searchStrB2, string const& searchStrC, string const& searchStrC2, int minFounds) {
-    //Source: https://stackoverflow.com/a/36878259
+    //Reference: https://stackoverflow.com/a/36878259
     unsigned char* p = NULL;
     int foundsA = 0;
     int foundsA2 = 0;
