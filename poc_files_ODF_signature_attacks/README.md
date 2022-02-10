@@ -1,29 +1,27 @@
 # Exploits
 The exploits are divided into 5 attacks and are operating system independent:
 
-01: Macro Manipulation with Certificate Doubling
-02: Content Manipulation with Certificate Doubling
-03: Content Manipulation with Certificate Validation Bypass
-04: Content Manipulation with Signature Upgrade
-05: Timestamp Manipulation with Signature Wrapping
+01: Macro Manipulation with Certificate Doubling<br>
+02: Content Manipulation with Certificate Doubling<br>
+03: Content Manipulation with Certificate Validation Bypass<br>
+04: Content Manipulation with Signature Upgrade<br>
+05: Timestamp Manipulation with Signature Wrapping<br>
 
 ## Impact
-Signatures are valid and the signer is trusted.
-
-01: The attacker chooses the content + macros of the document and changes the signer of the macros to "Trusted Person". More examples of macro exploits, see below. 
-02: The attacker chooses the content of the document and changes the signer of the document to "Trusted Person".
-03: The attacker chooses the content of the document and changes the signer of the document to any person.
-04: The attacker chooses the content of the document. Signer remains unchanged.
-05: The attacker changes the timestamp of the signed document. Signer remains unchanged.
+Signatures are valid and the signer is trusted.<br>
+<br>
+01: The attacker chooses the content + macros of the document and changes the signer of the macros to "Trusted Person". More examples of macro exploits, see below.<br>
+02: The attacker chooses the content of the document and changes the signer of the document to "Trusted Person".<br>
+03: The attacker chooses the content of the document and changes the signer of the document to any person.<br>
+04: The attacker chooses the content of the document. Signer remains unchanged.<br>
+05: The attacker changes the timestamp of the signed document. Signer remains unchanged.<br>
 
 ## Trustness
 Except for exploit 03, the attacks require that the included certificate from "Trusted Person" on the victim's system is trusted.
 
 ## ODF Applications
-Exploits for LibreOffice, Collabora, Microsoft Office are based on XAdES signatures. Since OpenOffice, NeoOffice, Lotus Symphony and AO Office do not support XAdES signatures, the exploits are not executable for these applications.
-
+Exploits for LibreOffice, Collabora, Microsoft Office are based on XAdES signatures. Since OpenOffice, NeoOffice, Lotus Symphony and AO Office do not support XAdES signatures, the exploits are not executable for these applications.<br>
 Exploits for OpenOffice, NeoOffice, Lotus Symphony, and AO Office are built based on normal XML signatures. These exploits are also executable for LibreOffice and Collabora.
-
 
 ## Further Macro Exploit Examples
 These exploits are of attack class "01: Macro Manipulation with Certificate Doubling" and are designed for Windows operating systems.
