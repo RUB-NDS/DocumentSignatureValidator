@@ -32,17 +32,17 @@ The included macro downloads an .exe file from https://github.com/attodf/odf-tes
 ### ransomware:
 The included macro creates the file "example_ransomware.py" under C:\Users\%USERNAME%\AppData\Local\Temp. Then, this Python script is executed, using the Python environment of the respective office application, which can be found under C:\Program Files\%ODF-Application%\program\python.exe. This ransomware simulation serves as a PoC and is not supposed to do any damage, so it only creates a hashed file with .hashed extension from each file under C:\Users\%USERNAME%\Desktop. The function to delete the original files is not active in the Python code.
 
-# CVEs
+## CVEs
 2021-25633, 2021-25634, 2021-25635, 2021-41830, 2021-41831, 2021-41832
 
-## Affected Applications
+### Affected Applications
 <table>
   <thead>
     <tr>
       <th>Applikation</th>
       <th>Version</th>
 	  <th>OS</th>
-	  <th>Attack Classes</th>
+	  <th>Attack Class</th>
     </tr>
   </thead>
   <tbody>
@@ -68,25 +68,25 @@ The included macro creates the file "example_ransomware.py" under C:\Users\%USER
       <td>Collabora Office</td>
       <td>6.4.11-2</td>
 	  <td>iOS</td>
-	  <td>2, 3, 5</td>
+	  <td>2, 5</td>
     </tr>
 	<tr>
       <td>Collabora Office</td>
       <td>6.4.3</td>
 	  <td>Android</td>
-	  <td>2, 3, 5</td>
+	  <td>2, 5</td>
     </tr>
 	<tr>
       <td>Collabora Online (CODE)</td>
       <td>6.0-18</td>
 	  <td>Online</td>
-	  <td>2, 3, 5</td>
+	  <td>2, 5</td>
     </tr>
 	<tr>
       <td>IBM Lotus Symphony</td>
       <td>3.0.1 fp2</td>
 	  <td>Win, Linux</td>
-	  <td>1, 2, 3, 5</td>
+	  <td>1, 2, 5</td>
     </tr>
 	<tr>
       <td>LibreOffice</td>
@@ -109,7 +109,7 @@ The included macro creates the file "example_ransomware.py" under C:\Users\%USER
   </tbody>
 </table>
 
-## Known Fixed Applications
+### Known Fixed Applications
 
 <table>
   <thead>
