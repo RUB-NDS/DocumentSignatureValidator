@@ -56,13 +56,13 @@ The included macro creates the file "example_ransomware.py" under C:\Users\\%USE
       <td>Apache OpenOffice</td>
       <td>4.1.8</td>
 	  <td>Win, macOS, Linux</td>
-	  <td>1, 2, 3, 5</td>
+	  <td>1, 2, 3 (Win), 5</td>
     </tr>
 	<tr>
       <td>Collabora Office</td>
       <td>6.2-20210530</td>
 	  <td>Win, macOS, Linux</td>
-	  <td>1, 2, 3, 5</td>
+	  <td>1, 2, 3 (Win), 5</td>
     </tr>
 	<tr>
       <td>Collabora Office</td>
@@ -92,7 +92,7 @@ The included macro creates the file "example_ransomware.py" under C:\Users\\%USE
       <td>LibreOffice</td>
       <td>7.0.4.2</td>
 	  <td>Win, macOS, Linux</td>
-	  <td>1, 2, 3, 5</td>
+	  <td>1, 2, 3 (Win), 5</td>
     </tr>
 	<tr>
       <td>Microsoft Office 2019</td>
@@ -104,7 +104,7 @@ The included macro creates the file "example_ransomware.py" under C:\Users\\%USE
       <td>NeoOffice</td>
       <td>2017.27</td>
 	  <td>macOS</td>
-	  <td>1, 2, 3, 5</td>
+	  <td>1, 2, 5</td>
     </tr>
   </tbody>
 </table>
