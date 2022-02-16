@@ -27,7 +27,7 @@ Exploits for OpenOffice, NeoOffice, Lotus Symphony, and AO Office are built base
 These exploits are of attack class "01: Macro Manipulation with Certificate Doubling" and are designed for Windows operating systems.
 
 ### exe_download_execute:
-The included macro downloads an .exe file from https://github.com/attodf/odf-test when the document is opened and saves it to C:\Users\%USERNAME%\AppData\Local\Temp, then automatically executes the program. The program is harmless and does not contain any malicious code. It just outputs a text on the console.
+The included macro downloads an .exe file from https://github.com/attodf/odf-test when the document is opened and saves it to C:\Users\\%USERNAME%\AppData\Local\Temp, then automatically executes the program. The program is harmless and does not contain any malicious code. It just outputs a text on the console.
 
 ### ransomware:
 The included macro creates the file "example_ransomware.py" under C:\Users\\%USERNAME%\AppData\Local\Temp. Then, this Python script is executed, using the Python environment of the respective office application, which can be found under C:\Program Files\\%ODF-Application%\program\python.exe. This ransomware simulation serves as a PoC and is not supposed to do any damage, so it only creates a hashed file with .hashed extension from each file under C:\Users\\%USERNAME%\Desktop. The function to delete the original files is not active in the Python code.
