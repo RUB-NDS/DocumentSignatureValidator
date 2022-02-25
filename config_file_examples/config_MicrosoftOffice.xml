@@ -10,15 +10,15 @@
 		<siginvalidstring2></siginvalidstring2>
 		<sigproblem>This document contains recoverable signatures</sigproblem>
 		<sigproblem2></sigproblem2>
-		<wait>5</wait>
+		<wait>6</wait>
 		<minfoundvalues></minfoundvalues>
 	</application>
 	<files>
-		<path>Path to the files to be tested</path>
+		<path>test_documents\</path>
 		<arguments></arguments>
 		<extension>.docx</extension>
 	</files>
 	<output>
-		<path>Path for the result file and screenshot directory</path>
+		<path>results_docsv\</path>
 	</output>
 </config>

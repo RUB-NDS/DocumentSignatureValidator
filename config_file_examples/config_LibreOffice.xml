@@ -10,15 +10,15 @@
 		<siginvalidstring2></siginvalidstring2>
 		<sigproblem>At least one signature has problems: the certificate could not be validated</sigproblem>
 		<sigproblem2></sigproblem2>
-		<wait>4</wait>
+		<wait>5</wait>
 		<minfoundvalues></minfoundvalues>
 	</application>
 	<files>
-		<path>Path to the files to be tested</path>
+		<path>test_documents\</path>
 		<arguments>--norestore</arguments>
 		<extension>.odt</extension>
 	</files>
 	<output>
-		<path>Path for the result file and screenshot directory</path>
+		<path>results_docsv\</path>
 	</output>
 </config>
