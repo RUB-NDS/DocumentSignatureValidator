@@ -1,6 +1,6 @@
 <config>
 	<application>
-		<path>C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe</path>
+		<path>C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\FoxitPDFReader.exe</path>
 		<overwriteprocessname></overwriteprocessname>
 		<encoding></encoding>
 		<teststring></teststring>
