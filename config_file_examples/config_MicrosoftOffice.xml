@@ -1,6 +1,6 @@
 <config>
 	<application>
-		<path>C:\Program Files\Microsoft Office\root\Office16\WINWORD.exe</path>
+		<path>C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.exe</path>
 		<overwriteprocessname></overwriteprocessname>
 		<encoding></encoding>
 		<teststring></teststring>
