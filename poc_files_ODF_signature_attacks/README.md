@@ -142,3 +142,6 @@ The included macro creates the file "example_ransomware.py" under C:\Users\\%USE
 Oops... Code Execution and Content Spoofing: The First Comprehensive Analysis of OpenDocument Signatures<br>
 USENIX Security Symposium 2022<br>
 [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/rohlmann)
+
+## Note
+The certificate of the trusted entity is valid until 11st May 2022. For the evaluation of the attacks after this date, it is necessary to reset the date of the operating system accordingly.
