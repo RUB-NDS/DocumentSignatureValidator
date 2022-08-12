@@ -143,5 +143,8 @@ Oops... Code Execution and Content Spoofing: The First Comprehensive Analysis of
 USENIX Security Symposium 2022<br>
 [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/rohlmann)
 
+## Evaluation Instruction
+See [Link](https://github.com/RUB-NDS/DocumentSignatureValidator/blob/main/artifact_appendix/ODF_Signature_Usenix_Artifact_Appendix.pdf) for instructions on how to evaluate the described attacks.
+
 ## Note
 The certificate of the trusted entity is valid until 11st May 2022. For the evaluation of the attacks after this date, it is necessary to reset the date of the operating system accordingly.
