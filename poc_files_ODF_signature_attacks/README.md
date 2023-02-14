@@ -6,6 +6,8 @@ The exploits are divided into 5 attacks and are operating system independent:
 03: Content Manipulation with Certificate Validation Bypass<br>
 04: Content Manipulation with Signature Upgrade<br>
 05: Timestamp Manipulation with Signature Wrapping<br>
+06: Macro Manipulation with Direct Key Material<br>
+07: Content Manipulation with Direct Key Material<br>
 
 ## Impact
 Signatures are valid and the signer is trusted.<br>
@@ -15,6 +17,8 @@ Signatures are valid and the signer is trusted.<br>
 03: The attacker chooses the content of the document and changes the signer of the document to any person.<br>
 04: The attacker chooses the content of the document. Signer remains unchanged.<br>
 05: The attacker changes the timestamp of the signed document. Signer remains unchanged.<br>
+06: The attacker chooses the content + macros of the document and changes the signer of the macros to "Trusted Person". More examples of macro exploits, see below.<br>
+07: The attacker chooses the content of the document and changes the signer of the document to "Trusted Person".<br>
 
 ## Trustness
 Except for exploit 03, the attacks require that the included certificate from "Trusted Person" on the victim's system is trusted.
@@ -33,7 +37,7 @@ The included macro downloads an .exe file from https://github.com/attodf/odf-tes
 The included macro creates the file "example_ransomware.py" under C:\Users\\%USERNAME%\AppData\Local\Temp. Then, this Python script is executed, using the Python environment of the respective office application, which can be found under C:\Program Files\\%ODF-Application%\program\python.exe. This ransomware simulation serves as a PoC and is not supposed to do any damage, so it only creates a hashed file with .hashed extension from each file under C:\Users\\%USERNAME%\Desktop. The function to delete the original files is not active in the Python code.
 
 ## CVEs
-2021-25633, 2021-25634, 2021-25635, 2021-41830, 2021-41831, 2021-41832
+2021-25633, 2021-25634, 2021-25635, 2021-25636, 2021-41830, 2021-41831, 2021-41832
 
 ### Affected Applications
 <table>
@@ -62,7 +66,7 @@ The included macro creates the file "example_ransomware.py" under C:\Users\\%USE
       <td>Collabora Office</td>
       <td>6.2-20210530</td>
 	  <td>Win, macOS, Linux</td>
-	  <td>1, 2, 3 (Win), 5</td>
+	  <td>1, 2, 3 (Win), 5, 6, 7</td>
     </tr>
 	<tr>
       <td>Collabora Office</td>
@@ -92,7 +96,7 @@ The included macro creates the file "example_ransomware.py" under C:\Users\\%USE
       <td>LibreOffice</td>
       <td>7.0.4.2</td>
 	  <td>Win, macOS, Linux</td>
-	  <td>1, 2, 3 (Win), 5</td>
+	  <td>1, 2, 3 (Win), 5, 6, 7</td>
     </tr>
 	<tr>
       <td>Microsoft Office 2019</td>
@@ -125,11 +129,11 @@ The included macro creates the file "example_ransomware.py" under C:\Users\\%USE
     </tr>
 	<tr>
       <td>Collabora</td>
-      <td>6.2-33, 6.4.14</td>
+      <td>6.2-33, 6.4.14 (attacks 1 to 5), 6.2-35, 6.4-55 (attacks 6 and 7)</td>
     </tr>
 	<tr>
       <td>LibreOffice</td>
-      <td>7.0.2, 7.1.2</td>
+      <td>7.0.2, 7.1.2 (attacks 1 to 5), 7.2.5, 7.3.0 (attacks 6 and 7)</td>
     </tr>
 	<tr>
       <td>NeoOffice</td>
