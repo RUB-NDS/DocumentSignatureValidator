@@ -1,5 +1,5 @@
 # Exploits
-The exploits are divided into 5 attacks and are operating system independent:
+The exploits are divided into 7 attacks and are operating system independent:
 
 01: Macro Manipulation with Certificate Doubling<br>
 02: Content Manipulation with Certificate Doubling<br>
